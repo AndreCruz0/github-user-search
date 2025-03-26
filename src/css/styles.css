@@ -24,6 +24,18 @@ main {
   padding: 50px 0 0;      
 }
 
+.container-extra-infos{
+  display: flex;
+  gap: 3px;
+  justify-content: space-evenly;
+   p{
+    padding: 5px;
+    background-color: rgba(125, 7, 235, 0.945);
+    border-radius: 20px;
+   }
+
+}
+
 .devicon-github-original{
   font-size: 60px;
   margin-bottom: 30px;
@@ -59,7 +71,14 @@ main {
   font-weight: 700;
   margin-bottom: 30px;
 }
+.events{
 
+  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 .container header #input-search {
   width: 400px;
   font-size: 17px;
@@ -91,24 +110,20 @@ main {
   align-items: center;
   padding: 40px;  
 }
-
 .container .profile-data .info {
   display: flex;  
   flex-wrap: wrap;
   align-items: center;
 }
-
 .container .profile-data .info .data{
   padding: 40px;
   width: 50%;
 }
-
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
   border: 10px solid hotpink;
 }
-
 .container .profile-data .info h1{
   font-size: 20px;
   margin-bottom: 20px;
